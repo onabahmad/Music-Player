@@ -1,0 +1,35 @@
+.sidebar_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #692d94;
+}
+.sidebar {
+  border-right: 1px solid #dcdcdc;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option1 {
+  margin-bottom: 178%;
+  cursor: pointer;
+}
+.option2 {
+  padding: 0 0 0 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.grid_icon {
+  padding: 0 0 0 15px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  border-right: 3px solid #4997d0;
+  background-color: rgba(155, 221, 225, 0.4);
+}

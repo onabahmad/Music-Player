@@ -1,0 +1,65 @@
+.player_container {
+  width: 99%;
+  margin-top: 15rem;
+  border: none;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+.title_Control_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+.player_Thumbnail {
+  width: 36px;
+}
+.player_container .title {
+  font-size: inherit;
+}
+
+.player_container .navigation {
+  width: 100%;
+}
+
+.player_container .navigation .navigation_wrapper {
+  min-width: 100%;
+  background-color: rgba(119, 119, 119, 0.781);
+  height: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.player_container .navigation .navigation_wrapper .seek_bar {
+  width: 0;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.player_container .controls {
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.player_container .controls .btn_action {
+  font-size: 20px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.player_container .controls .pp {
+  font-size: 20px;
+  background-color: white;
+}

@@ -1,0 +1,35 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.signupContainer {
+  align-items: start;
+  width: 25%;
+}
+
+.signup_title {
+  font-weight: 500;
+  color: #692d94;
+}
+.signup_instruction {
+  font-size: 9px;
+}
+.input_container {
+  width: 96%;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+.signup_button {
+  width: 98%;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #692d94;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

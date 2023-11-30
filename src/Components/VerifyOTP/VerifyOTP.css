@@ -1,0 +1,59 @@
+.verifyOTP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.verifyOTP_Container {
+  align-items: start;
+  width: 23%;
+}
+.verifyOTP_Title {
+  font-weight: 500;
+  color: #692d94;
+}
+
+.verifyOTP_Instruction {
+  font-size: 9px;
+}
+
+.otpInput_Container input {
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.OTP_Input_container {
+  width: 98%;
+}
+.verifyOTP_button {
+  width: 98%;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #692d94;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.resent_button,
+.anotherNumber_button {
+  border: none;
+  background-color: white;
+  color: #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.resent_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}

@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+// import axios from "axios";
+// process.env.REACT_APP_ENDPOINT = "https://dev.api.goongoonalo.com/v1";
+// process.env.REACT_APP_TOKEN = "";
+// process.env.REACT_APP_REQUEST_ID = "";
+// process.env.REACT_APP_OTP = "5678";
+// process.env.REACT_APP_USER_ID = "+919000000000";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// axios.defaults.baseURL = process.env.REACT_APP_ENDPOINT;
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
